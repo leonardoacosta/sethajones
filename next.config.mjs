@@ -6,6 +6,7 @@ const nextConfig = {
 	experimental: {
 		appDir: true,
 		mdxRs: true,
+		instrumentationHook: true,
 	},
 };
 

@@ -26,7 +26,11 @@ yarn-error.log*
 .pnpm-debug.log*
 
 # local env files
-.env*.local
+.env
+.env.dev
+.env.prod
+.env.preview
+.doppler.yaml
 
 # vercel
 .vercel
@@ -36,3 +40,8 @@ yarn-error.log*
 next-env.d.ts
 
 .contentlayer
+
+# Beads / Dolt files (added by bd init)
+.dolt/
+*.db
+.beads-credential-key
